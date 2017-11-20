@@ -1,6 +1,7 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<div>Hello world</div>, document.getElementById('root'));
+import Routes from './routes';
+
+ReactDOM.render(Routes, document.getElementById('root'));
 registerServiceWorker();
